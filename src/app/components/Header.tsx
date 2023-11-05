@@ -21,7 +21,7 @@ export default function Header({ switchTheme }: { switchTheme: any }) {
           container
           direction="row"
           alignItems="center"
-          justifyContent="center"
+          justifyContent="flex-end"
         >
           <FormControlLabel
             control={
