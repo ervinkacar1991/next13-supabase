@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   const [isDark, setIsDark] = useState(false);
-  const [isLoggedIn, setILoggedIn] = useState(false);
+  const [isLoggedIn, setILoggedIn] = useState(true);
 
   const switchTheme: any = () => {
     setIsDark(!isDark);

@@ -2,7 +2,7 @@
 
 import { Button, TextField, Grid } from "@mui/material";
 import Image from "next/image";
-import doctor from "../../../public/doctor.jpg";
+import doctor from "../../../public/doctor.webp";
 
 export default function Landing() {
   return (
@@ -14,8 +14,18 @@ export default function Landing() {
       alignItems="center"
     >
       <Grid item>
-        <h1>Track your migraines, help doctor find a cure</h1>
-        <p style={{ maxWidth: "800px", lineHeight: "1.45" }}>
+        <h1 style={{ textAlign: "center" }}>
+          Track your migraines, help doctor find a cure
+        </h1>
+        <p
+          style={{
+            maxWidth: "800px",
+            lineHeight: "1.45",
+            textAlign: "center",
+            fontSize: 20,
+            color: "gray",
+          }}
+        >
           Our app helps you track your migraine events, and provides opportunity
           for you to help doctors cure migraines.
         </p>
