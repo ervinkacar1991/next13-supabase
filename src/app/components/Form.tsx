@@ -1,5 +1,9 @@
+import dayjs from "dayjs";
+import { useState, useEffect } from "react";
+import { Event } from "@/types";
+
 type Props = {
-  setEvents: React.Dispatch<React.SetStateAction<boolean>>;
+  setEvents: React.Dispatch<React.SetStateAction<Event[]>>;
   setOpen: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
